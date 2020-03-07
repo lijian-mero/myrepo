@@ -5,8 +5,8 @@ management:
   endpoints:
     web:
       exposure: 
-        include: health
-        exclude: info
+        include: '*'
+        exclude: threaddump,heapdump
   endpoint:
     health:
       show-details: always
