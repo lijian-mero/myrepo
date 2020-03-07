@@ -1,2 +1,5 @@
 bluersw:
     config: Hello World!!!!!!!!!!!!!
+    
+server:
+    port: 8082
