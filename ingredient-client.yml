@@ -4,7 +4,7 @@ server:
 management:
   endpoints:
     web:
-      exposure:
+      exposure: info
         include: health
   endpoint:
     health:
