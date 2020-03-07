@@ -4,8 +4,9 @@ server:
 management:
   endpoints:
     web:
-      exposure: info
+      exposure: 
         include: health
+        exclude: info
   endpoint:
     health:
       show-details: always
