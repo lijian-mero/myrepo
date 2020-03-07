@@ -1,5 +1,18 @@
 server:
   port: 8083
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: threaddump
+  endpoint:
+    health:
+      show-details: always
+  info:
+    git:
+      mode: full
   
   
 info:
